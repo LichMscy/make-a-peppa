@@ -1,5 +1,5 @@
 (function () {
-  let duration = 50
+  let duration = 5
 
   $('.actions').on('click', 'button', function (e) {
     let $button = $(e.currentTarget) // button
@@ -14,7 +14,7 @@
         duration = 10
         break
       case 'fast':
-        duration = 3
+        duration = 5
         break
     }
   })
