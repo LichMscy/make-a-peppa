@@ -1,5 +1,5 @@
 (function () {
-  let duration = 5
+  let duration = 2
 
   $('.actions').on('click', 'button', function (e) {
     let $button = $(e.currentTarget) // button
@@ -14,7 +14,7 @@
         duration = 10
         break
       case 'fast':
-        duration = 5
+        duration = 2
         break
     }
   })
@@ -49,8 +49,8 @@ div {
 .pig_container {
 width: 800px;
 height: 800px;
-top: 100px;
-left: 300px;
+top: 300px;
+left: 0;
 }
 
 /*
