@@ -40,7 +40,7 @@
 
 
   let code = `/*
- * OK, there we go
+ * OK, here we go
  */
 div {
   position: absolute;
